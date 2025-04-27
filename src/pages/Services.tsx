@@ -25,9 +25,9 @@ const Services = () => {
             {/* Disability Insurance */}
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <Shield className="w-12 h-12 text-[#0047CC] mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Disability Insurance</h3>
+              <h3 className="text-2xl font-semibold mb-4">Protect Your Income</h3>
               <p className="text-gray-600 mb-6">
-                Your ability to earn an income is your greatest asset. If you're self-employed or incorporated, you likely don't have benefits in place to protect it.
+                Your ability to earn an income is your greatest asset. If you're self-employed or incorporated, you may not have benefits in place to protect it.
                 We design disability insurance plans that ensure your income continues — even if your ability to work doesn't.
               </p>
             </div>
@@ -35,32 +35,41 @@ const Services = () => {
             {/* Critical Illness Insurance */}
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <Heart className="w-12 h-12 text-[#0047CC] mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Critical Illness Insurance</h3>
+              <h3 className="text-2xl font-semibold mb-4">Support When Life Takes an Unexpected Turn</h3>
               <p className="text-gray-600 mb-6">
-                A major health event can turn life upside down. Critical Illness coverage pays out a lump sum tax-free if you're diagnosed with a covered condition, giving you the flexibility to take time off, seek private care, or keep your household running during recovery.
+                A major health event can turn life upside down. Critical Illness Insurance pays out a lump sum tax-free if you're diagnosed with a covered condition, providing you with the flexibility to:
               </p>
+              <ul className="list-disc pl-6 text-gray-600 mb-6">
+                <li>Take time off work</li>
+                <li>Seek private medical care</li>
+                <li>Keep your household running during recovery</li>
+              </ul>
             </div>
 
             {/* Life Insurance & Estate Planning */}
             <div className="bg-white p-8 rounded-2xl shadow-lg border border-gray-100">
               <FileText className="w-12 h-12 text-[#0047CC] mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Life Insurance & Estate Planning</h3>
+              <h3 className="text-2xl font-semibold mb-4">Plan Today to Protect Tomorrow</h3>
               <p className="text-gray-600 mb-6">
-                Life insurance can do far more than cover final expenses. We build both term and permanent insurance strategies (Whole Life & Universal Life) to:
+                Life insurance is about more than just covering final expenses. We create personalized strategies using Term, Whole Life, and Universal Life insurance to:
               </p>
               <ul className="list-disc pl-6 text-gray-600 mb-6">
-                <li>Protect your family</li>
-                <li>Secure business succession</li>
-                <li>Support tax-efficient wealth transfer</li>
-                <li>Fund trusts or legacy gifts</li>
+                <li>Protect your family's financial security</li>
+                <li>Secure your business succession plans</li>
+                <li>Enable tax-efficient wealth transfer</li>
+                <li>Fund trusts or meaningful legacy gifts</li>
               </ul>
+              <p className="text-gray-600 mb-6">
+                We also help families with intergenerational wealth transfer strategies, ensuring that wealth transitions smoothly while honoring family goals.
+                Our approach respects the structures developed by your accountants and legal advisors — making sure your plan is cohesive, aligned, and stress-free.
+              </p>
             </div>
           </div>
 
-          {/* Additional Information */}
+          {/* Collaboration Promise */}
           <div className="mt-16 max-w-3xl mx-auto text-center">
             <p className="text-gray-600 mb-8">
-              We value our professional partners and strive to ensure all planning is coordinated and cohesive. You won't need to double-check or correct our work — we welcome collaboration and respect your recommendations.
+              We value our professional partners. Our planning process is built on collaboration and precision, so you can be confident your strategy is well-coordinated and effective.
             </p>
             <Button className="bg-[#0047CC] hover:bg-[#003399] text-white text-lg px-8 py-6 h-auto">
               Book a 30-Minute Consultation
